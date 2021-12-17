@@ -1,6 +1,6 @@
 # Theses by Graphic design department of the Royal Academy of Art, The hague
 
-Last updated on 17 december 2021.
+Last updated on 17 December 2021.
 
 ## Add new class
 
@@ -50,3 +50,13 @@ Last updated on 17 december 2021.
     ]
 }
 ````
+
+## License
+
+This project is released under…?
+
+---
+
+👋 2021, Martijn de Heer, [aptoptout.studio](https://aptoptout.studio)
+
+👋 2017, Eric Schrijver, [codingisacopingstrategy](https://github.com/codingisacopingstrategy)
