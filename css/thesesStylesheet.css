@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+    font-family: "neue";
+    src: url("../fonts/neue.woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "lyon";
+    src: url("../fonts/lyon.woff");
+    font-weight: normal;
+}
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "neue", "arial", "helvetica", sans-serif;
+    color:#444;
+    background: whitesmoke;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 2vw;
+    color:#444;
+    transition: all 0.5s;
+}
+
+h1 {
+    font-family: "lyon", "georgia", serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "neue", "arial", "helvetica", sans-serif;
+}
+
+h1:hover {
+    transform: translate(11px, 0px);
+}
+
+h2:hover {
+    font-style: italic;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    padding-top: 0.5vw;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+a {
+    scroll-snap-align: start;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+section {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0.5vw 1vw;
+    pointer-events: none;
+}
+
+.classYear {
+    align-self: flex-start;
+    pointer-events: all;
+}
+
+.studentNames {
+    line-height: 1.2125em;
+    align-self: flex-end;
+    pointer-events: all;
+}
+
+@media only screen and (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+
+    header {
+        left: 100vw;
+        top: 2.5vw;
+        width: fit-content;
+        padding-top: 5vw;
+        transform: rotate(90deg);
+        transform-origin: 0 0;
+    }
+
+    section {
+        padding: 2.5vw 5vw;
+    }
+}
