@@ -27,6 +27,7 @@ const thesesClasses = [
             "Aurora Navarro Villacampa",
             "Adriana Navarro Villacampa",
             "Tereza Novakova",
+            "Ada Popovic",
             "Soyun Park",
             "Karoliina Pärnänen",
             "Vincent Rheinberger",
