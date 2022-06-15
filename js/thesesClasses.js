@@ -1,5 +1,42 @@
 const thesesClasses = [
     {
+        id: "2021—2022",
+        url: "https://kabk.github.io/go-theses-22/",
+        students: [
+            "Charlotte van Alfen",
+            "Chloé Thiebaut Brayer",
+            "Fleurine Brijker",
+            "Matas Buckus",
+            "Camila Chebez",
+            "Dawun Chung",
+            "Lisa Dieterle",
+            "Petra Eros",
+            "Ieva Gailiusaite",
+            "Szymon Hernik",
+            "Eunseo Hyun",
+            "Jules Janssen",
+            "Hyeonjeong Joo",
+            "Dahsuel Jung",
+            "Emir Karyo",
+            "Hyobin Kwon",
+            "Eunji Lee",
+            "Sofia Nikolaeva",
+            "Kirill Noskov",
+            "Jonas Mindaugas Paberzis",
+            "Matteo Pellegrini",
+            "Ola Rubik",
+            "Pavlo Sharapata",
+            "Agnar Freyr Stefánsson",
+            "Katla Taylor",
+            "Thora Thogersen",
+            "Paulina Trzeciak",
+            "Weronika Uyar",
+            "Paolo Vigliotti",
+            "Julia Waraksa",
+            "Jan Wojda",
+            "Radina Yotova"
+        ]
+    }, {
         id: "2020—2021",
         url: "https://kabk.github.io/go-theses-21/",
         students: [
