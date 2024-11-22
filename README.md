@@ -57,6 +57,6 @@ This project is released under…?
 
 ---
 
-👋 2021, Martijn de Heer, [aptoptout.studio](https://aptoptout.studio)
+👋 2021, Martijn de Heer, [Apt Opt Out](https://github.com/aptoptout)
 
 👋 2017, Eric Schrijver, [codingisacopingstrategy](https://github.com/codingisacopingstrategy)
