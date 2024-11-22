@@ -1,5 +1,6 @@
 const loadClasses = () => {
     const template = document.getElementById("templateClass");
+
     thesesClasses.forEach(thesesClass => {
         const clone = template.content.cloneNode(true);
         const hyperLink = clone.querySelector(".linkIndex");
@@ -10,4 +11,4 @@ const loadClasses = () => {
         classNames.innerText = `${thesesClass.students.join(", ")}.`;
         document.querySelector("main").append(clone);
     });
-}
+};
