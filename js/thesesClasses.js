@@ -62,7 +62,6 @@ const thesesClasses = [
             "Hyosun Lucky Kim",
             "Jiye Kim",
             "Antonia Klimsza",
-            "William Kosse",
             "Maya Kurella",
             "Trang Quynh Le",
             "Taotao Li",
